@@ -1,0 +1,11 @@
+*.rb      linguist-language=Ruby
+vendor/*  linguist-vendored
+bin/*     linguist-generated=true
+db/*      linguist-generated=true
+log/*     linguist-generated=true
+tmp/*     linguist-generated=true
+public/*  linguist-generated=true
+Gemfile*  linguist-generated=true
+Rakefile  linguist-generated=true
+README.md linguist-generated=true
+
