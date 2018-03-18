@@ -13,6 +13,10 @@ class Post < ApplicationRecord
     super(attribute_names)
   end
 
+  def date
+    self.updated_at.to_s(:long)
+  end
+
   private
     def generate_html_and_preview
       text_only    = Redcarpet::Markdown.new(Redcarpet::Render::StripDown)
